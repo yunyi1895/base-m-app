@@ -1,0 +1,20 @@
+{
+  
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/getCode/getCode",
+    "pages/setPassword/setPassword",
+    "pages/rule/rule",
+    "pages/reduxTest/reduxTest"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  }
+}

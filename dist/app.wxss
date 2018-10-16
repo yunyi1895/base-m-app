@@ -1,0 +1,7 @@
+@import './assets/css/common.wxss';
+@import './assets/css/flex.wxss';
+@import './assets/css/icon.wxss';
+page{
+  height: 100%;
+  padding: 0;
+}

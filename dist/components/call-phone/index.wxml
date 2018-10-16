@@ -1,0 +1,3 @@
+<view class="call-phone fs-13" bindtap="callPhone">
+  客服热线400-920-8050
+</view>

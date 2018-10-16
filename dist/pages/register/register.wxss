@@ -1,0 +1,53 @@
+.logo{
+  padding-top: 28rpx;
+}
+.logo-img{
+  height: 20.9px;
+  width: 110px;
+}
+.logo-text{
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.to-input{
+  margin-top: 100rpx;
+}
+.phone{
+  height: 120rpx;
+  border-bottom: 1rpx solid #d7d7d7;
+}
+.icon_phone{
+  height: 14px;
+  width: 9px;
+}
+.phone-input{
+  padding-left: 22rpx;
+  color: #333333;
+  height: 58rpx;
+}
+.sub{
+  margin-top: 58rpx;
+}
+.to-register{
+  margin-top: 44rpx;
+}
+.picker-address{
+  padding-left: 22rpx;
+  color: #333;
+}
+.no-address{
+  padding-left: 22rpx;
+  color: #BBC4C4;
+}
+.check-rule{
+  margin-top: 46rpx;
+}
+.clear-img{
+  width: 50rpx;
+  text-align: center;
+}
+.j-url{
+  display: inline-block;
+  
+}

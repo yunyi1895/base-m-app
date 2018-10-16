@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "zan-checkbox": "../../../components/zanui-weapp/checkbox/index",
+    "call-phone":"../../../components/call-phone/index"
+  }
+}

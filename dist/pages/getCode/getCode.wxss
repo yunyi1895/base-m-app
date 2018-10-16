@@ -1,0 +1,34 @@
+.ttxt{
+  color: #000000;
+  font-weight: bold;
+  padding-top: 44rpx;
+}
+.code-phone-num{
+  color: #999999;
+  margin-top: 7px;
+}
+.code-home{
+  margin-top: 116rpx;
+}
+.code-list{
+  height: 120rpx;
+}
+.code-input{
+  border-bottom: 2rpx solid #222;
+  width: 25px;
+  display: inline-block;
+  margin-right: 20rpx;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+}
+.again-cend{
+  transform: translateY(-30rpx);
+  width: 120rpx;
+  text-align: center;
+}
+
+.ipt{
+  width: 0;
+  height: 0;
+}

@@ -1,0 +1,97 @@
+.fs-10 {
+  font-size: 20rpx
+}
+.fs-11 {
+  font-size: 22rpx
+}
+
+.fs-12 {
+  font-size: 24rpx
+}
+
+.fs-14 {
+  font-size: 28rpx
+}
+
+.fs-16 {
+  font-size: 32rpx
+}
+
+.fs-18 {
+  font-size: 36rpx
+}
+
+.fs-20 {
+  font-size: 40rpx
+}
+
+.fs-24 {
+  font-size: 48rpx
+}
+
+.fs-30 {
+  font-size: 60rpx
+}
+
+.c-color {
+  color: #38B43C;
+}
+
+.c-warning {
+  color: #FF9900;
+}
+
+.c-success {
+  color: #38B43C;
+}
+
+.c-333 {
+  color: #333;
+}
+
+.c-666 {
+  color: #666;
+}
+
+.c-888 {
+  color: #888;
+}
+
+.c-999 {
+  color: #999;
+}
+
+.c-padding {
+  padding: 0 20rpx;
+}
+.c-center{
+  text-align: center
+}
+
+.c-page {
+  height: 100%;
+  width: 100%;
+}
+.c-login-padding{
+  padding:0 80rpx;
+}
+.c-btn{
+  height: 92rpx;
+  width: 590rpx;
+  color: #fff;
+  border-radius: 100px;
+  background-color: #38B43C;
+  line-height: 92rpx;
+  font-size: 32rpx;
+  border:none;
+}
+.c-btn-dis{
+  background-color: #CBEFCB;
+}
+.c-checkbox{
+  padding: 0 !important;
+  font-size: 28rpx!important;
+}
+.c-checkbox .zan-checkbox__label{
+  margin-left:0px;
+}

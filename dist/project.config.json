@@ -1,0 +1,65 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.0",
+	"appid": "wxdb77d23a263a06a2",
+	"projectname": "evcard-m-app",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "转发过来",
+					"pathName": "pages/index/index",
+					"query": "userid=123456",
+					"scene": "1036",
+					"referrerInfo": {
+						"appId": "qwertyui"
+					}
+				},
+				{
+					"id": 1,
+					"name": "扫描二维码",
+					"pathName": "pages/index/index",
+					"query": "appKey=wwa&shareId=055445574588wwqw1",
+					"scene": "1011"
+				},
+				{
+					"id": 2,
+					"name": "扫描小程序码",
+					"pathName": "pages/index/index",
+					"query": "appKey=wwa&shareUid=0554455745",
+					"scene": "1047"
+				}
+			]
+		}
+	}
+}

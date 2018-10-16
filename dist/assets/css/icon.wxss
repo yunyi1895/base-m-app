@@ -1,0 +1,17 @@
+._icon{
+  background-origin:center;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+}
+.icon-del{
+  height: 26rpx;
+  width: 26rpx;
+  
+}
+.icon-visible{
+  width: 30rpx;
+  height: 30rpx;
+}

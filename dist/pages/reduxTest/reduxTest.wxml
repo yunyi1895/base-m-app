@@ -1,0 +1,12 @@
+<view>
+  数值 {{count}}
+  <view>
+    <button bindtap="handleJia">
+      加
+    </button>
+    <button bindtap="handleJian">
+      减
+    </button>
+    <view>{{hh}}</view>
+  </view>
+</view>

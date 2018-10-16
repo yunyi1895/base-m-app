@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="c-page">
+  <view class="c-login-padding">
+    <view class="logo">
+      <image class="logo-img" src="../../assets/img/logo.png"></image>
+      <view class="logo-text fs-30">账号登录</view>
+    </view>
+    <view class="phone fx-row fx-row-center">
+      <view>
+        <image class="icon_phone " src="../../assets/img/phone.png"></image>
+      </view>
+      <view class="fx-1 ">
+        <input class="phone-input fs-24" value="{{phoneNum}}" type="number" bindinput="bindReplaceInput" maxlength='11' placeholder="请输入手机号"
+          placeholder-style="font-size:16px;" />
+      </view>
+      <view class="clear-img" bindtap="clearInput"  wx:if="{{phoneNum.length>0}}">
+        <image  mode="widthFix" class="icon-del" src="../../assets/img/del.png"></image>
+      </view>
+    </view>
+    <view class="sub">
+      <button class="c-btn {{canSub?'':'c-btn-dis' }}" bindtap="handleGetCode">
+        获取验证码
+      </button>
+      <view bindtap="toRegister" class="to-register c-color fs-14 c-center">我是新用户</view>
+    </view>
+  </view>
+  <call-phone></call-phone>
+</view>

@@ -1,0 +1,8 @@
+.call-phone{
+  color: #999999;
+  text-align: center;
+  font-size: 26rpx;
+  position: absolute;
+  width: 100%;
+  bottom: 60rpx;
+}

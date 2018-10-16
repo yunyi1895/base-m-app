@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="c-page">
+  <view class="c-padding">
+    <!-- <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+      <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+      <view class="fx-row fx-row-center">
+        <view class="fx-1">1</view>
+        <view class="fx-1">2</view>
+      </view>
+    </view>
+    <view class="usermotto">
+      <text class="user-motto fs-12">{{motto}}</text>
+      <button open-type="launchApp" app-parameter="wechat" binderror="launchAppError">打开APP</button>
+      {{baseData}}
+      <view class="bb">88</view>
+      <span id="aa" class="aa">www</span>
+      <i>aa</i>
+      <picker mode="date" value="{{baseData}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          当前选择11111: {{date}}
+        </view>
+      </picker>
+    </view> -->
+  </view>
+</view>

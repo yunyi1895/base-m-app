@@ -1,0 +1,35 @@
+.logo{
+  padding-top: 28rpx;
+}
+.logo-img{
+  height: 20.9px;
+  width: 110px;
+}
+.logo-text{
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.phone{
+  height: 110rpx;
+  margin-top: 180rpx;
+  border-bottom: 1rpx solid #d7d7d7;
+}
+.icon_phone{
+  height: 14px;
+  width: 9px;
+}
+.phone-input{
+  padding-left: 22rpx;
+  height: 58rpx;
+}
+.sub{
+  margin-top: 128rpx;
+}
+.to-register{
+  margin-top: 44rpx;
+}
+.clear-img{
+  width: 50rpx;
+  text-align: center;
+}

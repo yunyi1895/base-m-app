@@ -1,0 +1,9 @@
+.rule-img{
+  width: 100%
+}
+.rule{
+  height: 100%;
+}
+.scroll{
+  height: 100%;
+}

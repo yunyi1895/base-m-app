@@ -1,0 +1,27 @@
+<view class="c-page">
+  <view class="c-login-padding">
+    <view class="fs-30 ttxt">
+      请输入验证码
+    </view>
+    <view class="code-phone-num fs-14">验证码已经发送到手机 +86 {{phoneNum}}</view>
+    <view class="code-home fx-row ">
+      <view class="fx-1 code-list  ">
+        <view class="fx-row">
+            <block wx:for="{{Length}}" wx:key="item">
+          <input type="number"  disabled value="{{Value.length>=index+1?Value[index]:''}}"  id="{{item}}" maxlength="1" catchtap='Tap'  class="fx-1 code-input fs-24" />
+        </block>
+        </view>
+        <input name="password" type="number" password="{{true}}" class='ipt' maxlength="{{Length}}" focus="{{isFocus}}" bindinput="Focus"></input>
+      </view>
+      <view class="again-cend c-color fs-14" bindtap="handleSendCode">
+        <text wx:if="{{!hasSendCode}}">
+          61s
+        </text>
+        <text wx:else>
+            {{sendText<=60?sendText+'s':'重新发送'}}
+        </text>
+        
+      </view>
+    </view>
+  </view>
+</view>

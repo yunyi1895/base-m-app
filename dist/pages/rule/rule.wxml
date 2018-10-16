@@ -1,0 +1,5 @@
+<view class="rule">
+  <scroll-view class="scroll" scroll-y="true" scroll-x="true">
+    <image class="rule-img" wx:for="{{clausePic}}" mode="widthFix" wx:key="index" src="{{item}}" lazy-load="true"></image>
+  </scroll-view>
+</view>
