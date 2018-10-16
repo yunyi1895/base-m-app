@@ -1,5 +1,5 @@
-function initMpState () {
-  const reducers = {};
+function initMpState() {
+  const reducers = {};//储层reduce
   const finalState = {};
   const listeners = [];
   let injectMethod = null;//生命周期钩子函数触发一次 dispatch
@@ -25,7 +25,7 @@ function initMpState () {
         }
       }
     }
-    dispatch({type: '@MPSTATE/INIT'});//第一次触发dispatch赋值state
+    dispatch({ type: '@MPSTATE/INIT' });//第一次触发dispatch赋值state
   }
 
 
@@ -33,8 +33,8 @@ function initMpState () {
     // debugger
     const keys = Object.keys(reducers);
     const len = keys.length;
-    
-    for (let i = 0; i < len; i++) { 
+
+    for (let i = 0; i < len; i++) {
       const key = keys[i];
       const currentReduce = reducers[key];
       const currentState = finalState[key];
@@ -48,12 +48,12 @@ function initMpState () {
       //赋值
       if (this.setData) { // 小程序
         this.setData({ ...componentState })
-      } 
+      }
     }
   }
-//mapStoreToState 将store里面的state数据赋值给组件数值的函数。
-//component 传入一个旧的组件
-//connect 方法返回值 是一个新的 component
+  //mapStoreToState 将store里面的state数据赋值给组件数值的函数。
+  //component 传入一个旧的组件
+  //connect 方法返回值 是一个新的 component
   function connect(mapStoreToState, component) {
     if (!component || typeof component !== 'object') {
       throw new Error('mpState[connect]: Component must be a Object!');
@@ -103,9 +103,9 @@ function initMpState () {
     newComponent.methods = methods;
     newComponent.dispatch = dispatch;
     newComponent.mapStoreToState = mapStoreToState;
-    
+
     if (newLiftMethod) {
-      newComponent[newLiftMethod] = function() {
+      newComponent[newLiftMethod] = function () {
         if (this) {
           this.dispatch({});
           oldLiftMethod && oldLiftMethod.call(this, arguments);

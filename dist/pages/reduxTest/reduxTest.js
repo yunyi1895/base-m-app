@@ -12,19 +12,19 @@ Page(
     },
     {
       data: {
-        
+
       },
       initWatch() {
         watch(this, {
-          count(val){
-            console.log('count变化'+val)
+          count(val) {
+            console.log('count变化' + val)
           }
         })
       },
-      initComputed(){
-        computed(this,{
-          hh(){
-            return this.data.count+ 'computed'
+      initComputed() {
+        computed(this, {
+          hh() {
+            return this.data.count + 'computed'
           }
         })
       },
@@ -34,17 +34,17 @@ Page(
       handleJian: function () {
         this.dispatch({ type: actionsType.JIAN });
       },
-      onLoad(){
+      onLoad() {
         console.log(1)
       },
-      onReady(){
+      onReady() {
         this.initWatch();
       },
-      onShow(){
-      
+      onShow() {
+
         this.initComputed();
-        
+
       }
-      
+
     })
 )

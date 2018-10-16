@@ -2,9 +2,7 @@
 import fetch from './utils/fetch.js';
 import day from './assets/js/day.js'//https://github.com/iamkun/dayjs/blob/master/docs/zh-cn/README.zh-CN.md
 import wxPromise from './utils/wxPromise.js';
-import { onShareAppMessage } from './utils/share.js';
 import { api_getOpenId } from './utils/api.js';
-// import './utils/sensorsdata.min.js';
 import getQuery from './utils/scene.js';
 import QQMapWX from './utils/qqmap-wx-jssdk.min.js';
 import {createStore} from './utils/redux.js';
@@ -14,17 +12,12 @@ var qqMapWX = new QQMapWX({
   key: 'IGLBZ-LC6LP-IS5DM-VBXX3-S4A4F-DCBNF' // 必填
 });
 App({
-  // onShareAppMessage: onShareAppMessage,
-  ajax: fetch,
-  day: day,
-  wxP: wxPromise,
-  qqMapWX:qqMapWX,
+  ajax: fetch,//ajax封装
+  day: day,//day.js
+  wxP: wxPromise,//微信方法Promise化
+  qqMapWX:qqMapWX,//腾讯地图插件
   onLaunch(e) { //全局只触发一次
-    console.log(e)
-    // let q = decodeURIComponent(e.query.q)
-
-    this.getAppKey(e.scene, e.query)
-
+    this.getAppKey(e.scene, e.query);
     this.getSetting()
   },
   globalData: {
@@ -73,21 +66,5 @@ App({
     let q = getQuery(sceneId, query)
     this.globalData.query = q
     console.log(q)
-  },
-  changeCodeTime(){
-    console.log(this.globalData.codeInterval)
-    if(this.globalData.codeInterval){
-      return
-    }
-    this.globalData.codeInterval=setInterval(()=>{
-      this.globalData.codeTime-=1;
-      console.log(this.globalData.codeTime)
-      if(this.globalData.codeTime<=0){
-        this.globalData.codeTime=20
-        clearInterval(this.globalData.codeInterval);
-        this.globalData.codeInterval=null
-      }
-    },1000)
-   
   }
 })

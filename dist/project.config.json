@@ -12,8 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.2.0",
-	"appid": "wxdb77d23a263a06a2",
-	"projectname": "evcard-m-app",
+	"appid": "",
+	"projectname": "base-m-app",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

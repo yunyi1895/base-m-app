@@ -1,4 +1,4 @@
-const baseURL = `https://csms-test.evcard.vip/evcard-rest-api/api`
+const baseURL = 'http://10.2.49.161:3000'
 const wxURL = 'http://10.2.49.161:3000'
 function fetch(url, method, data, params, isLoading = false, title = '请求中') {
   let headers = { 'content-type': 'application/json' }

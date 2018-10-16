@@ -36,9 +36,9 @@
     </view>
     <view class="check-rule fs-12">
       <zan-checkbox checkbox-class="c-checkbox fs-14" bindchange="handleCheckboxChange">我同意</zan-checkbox>
-      <!-- <text class="c-color" >《EVCARD会员守则》</text> -->
-      <navigator url="../rule/rule" class="c-color j-url"  open-type="navigateTo">《EVCARD会员守则》</navigator>
-      <text class="c-color">《EVCARD隐私政策》</text>
+
+      <navigator url="../rule/rule" class="c-color j-url"  open-type="navigateTo">《会员守则》</navigator>
+      <text class="c-color">《隐私政策》</text>
     </view>
     <view class="sub">
       <button class="c-btn {{canSub&&checkRule?'':'c-btn-dis' }}" bindtap="handleGetCode">
