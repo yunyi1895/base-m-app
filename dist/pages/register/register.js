@@ -73,6 +73,11 @@ Page({
       url: '../reduxTest/reduxTest'
     })
   },
+  goMapPage(){
+    wx.redirectTo({
+      url: '../map/map'
+    })
+  },
   clearInput(){
     this.setData({
       phoneNum:'',

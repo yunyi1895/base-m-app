@@ -32,6 +32,11 @@
 .to-register{
   margin-top: 44rpx;
 }
+.to-redux{
+  margin-top: 44rpx;
+  font-weight: 700;
+  font-size: 40rpx;
+}
 .picker-address{
   padding-left: 22rpx;
   color: #333;

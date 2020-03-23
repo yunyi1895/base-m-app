@@ -12,9 +12,11 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.2.0",
-	"appid": "",
+	"appid": "wxb13355907316f34a",
 	"projectname": "base-m-app",
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -30,6 +32,10 @@
 		},
 		"game": {
 			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
 			"list": []
 		},
 		"miniprogram": {
@@ -58,6 +64,19 @@
 					"pathName": "pages/index/index",
 					"query": "appKey=wwa&shareUid=0554455745",
 					"scene": "1047"
+				},
+				{
+					"id": -1,
+					"name": "pages/echarts/echarts",
+					"pathName": "pages/echarts/echarts",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "ww",
+					"pathName": "pages/map/map",
+					"scene": null
 				}
 			]
 		}

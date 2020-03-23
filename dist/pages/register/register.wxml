@@ -46,7 +46,8 @@
         {{sendText}}
       </button>
       <view bindtap="goLogin" class="to-register c-color fs-14 c-center">已有账号，去登录</view>
-      <view bindtap="goReduxTest" class="to-register c-color fs-14 c-center">reduxTest</view>
+      <view bindtap="goReduxTest" class="to-redux c-color fs-14 c-center">reduxTest</view>
+      <view bindtap="goMapPage" class="to-redux c-color fs-14 c-center">echarts map</view>
     </view>
   </view>
   <call-phone></call-phone>

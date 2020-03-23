@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "map测试",
+  "usingComponents": {
+    "ec-canvas": "../../../components/ec-canvas/ec-canvas"
+  }
+}
