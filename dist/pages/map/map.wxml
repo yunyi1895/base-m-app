@@ -1,4 +1,9 @@
 <!--index.wxml-->
 <view class="container">
   <ec-canvas id="mychart-dom-area" canvas-id="mychart-area" ec="{{ ec }}"></ec-canvas>
+  <cover-view  style="left:{{tooltipObj.left}};top:{{tooltipObj.top}}" class="b_cover">
+  {{tooltipObj.content}}
+  </cover-view>
+  <cover-image  style="left:{{tooltipObj.left}};top:{{tooltipObj.top}}" class="b_cover_img" src="https://evcard-h5.oss-cn-shanghai.aliyuncs.com/on7xs71wsil1585024948326.png"></cover-image>
+  
 </view>
